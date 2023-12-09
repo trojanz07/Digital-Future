@@ -1,0 +1,95 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    height: 40px;
+    width: auto;
+  }
+  
+  .brand {
+    margin-left: 20px;
+  }
+  
+  .brand h1 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  .wrapper {
+    display: flex;
+  }
+  
+  .sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+    height: 100vh;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .sidebar ul li a:hover {
+    color: #26ac69;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+
+  main {
+    margin: 0 auto;
+  }
+
+  #getting-started {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  #getting-started h2 {
+    margin-bottom: 10px;
+  }
+
+  
+
+  @media screen and (max-width: 768px) {
+    .sidebar {
+        background-color: #333;
+        color: #fff;
+        width: 150px;
+        height: 100vh;
+      }
+  }
